@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="./shop.css">
+</head>
+<body>
+    <section id="header">
+      <a href="#"><img src="../img/logo.jpg" /></a>
+      <div>
+        <ul id="navbar">
+          <li>
+            <a class="active" href="../index.html">HOME</a>
+          </li>
+          <li>
+            <a href="../Shop/shop.html">SHOP</a>
+          </li>
+          <li>
+            <a href="/Blog/blog.html">BLOG</a>
+          </li>
+          <li>
+            <a href="/About/about.html">ABOUT</a>
+          </li>
+
+          <li>
+            <a href="/Contact/contact.html">CONTACT</a>
+          </li>
+          <li>
+            <!-- <a href="cart.html"
+              ><i id="lg-bag" class="far fa-shopping-bag"></i
+            ></a> -->
+          </li>
+          <!-- <a href="#" id="close"><i class="far fa-times"></i></a> -->
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="catr.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <!-- all products -->
+   
+
+        <div style="margin-top: 10px;" class="wrap">
+            <section class="container">
+                <div class="filter-box">
+                    <div class="select-box">
+                        <div class="select-control">
+
+                            <input type="radio" name="Category" data-value-category="all" id="radio-all"
+                                class="category-control" checked>
+                            <label class="radio-control" for="radio-all">All</label><br>
+
+                            <input type="radio" name="Category" data-value-category="summer" id="radio-summer"
+                                class="category-control">
+                            <label class="radio-control" for="radio-summer">Summer</label><br>
+
+                            <input type="radio" name="Category" data-value-category="winter" id="radio-winter"
+                                class="category-control">
+                            <label class="radio-control" for="radio-winter">Winter</label><br>
+
+                            <input type="radio" name="Category" data-value-category="hotOffer" id="radio-hotOffer"
+                                class="category-control">
+                            <label class="radio-control" for="radio-hotOffer">Hot Offer</label><br>
+
+                            <input type="radio" name="Category" data-value-category="new-arrival" id="radio-new-arrival"
+                                class="category-control">
+                            <label class="radio-control" for="radio-new-arrival">New Arrival</label><br>
+
+                            <input type="radio" name="Category" data-value-category="cap" id="radio-cap"
+                                class="category-control">
+                            <label class="radio-control" for="radio-cap">Cap</label><br>
+
+                            <input type="radio" name="Category" data-value-category="tie" id="radio-tie"
+                                class="category-control">
+                            <label class="radio-control" for="radio-tie">Tie</label><br>
+                        </div>
+
+                    </div><!-- /.select-box -->
+                   
+                </div><!-- /filter-box-->
+
+                <div class="products-box grid-box">
+
+                    <div data-category='tie' value="28" class="product-box__item">
+                        <h3 class="product-box__title">Ash Tie</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/tie/t-5.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>28 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+
+
+                    <div data-category='hotOffer' value="1620" class="product-box__item">
+                        <h3 class="product-box__title">Gucci T-shirt</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/hotoffer/o-1.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>1620 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+
+                    <div data-category='hotOffer' value="80" class="product-box__item">
+                        <h3 class="product-box__title">Canyon</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/hotoffer/o-3.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>80 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='cap' value="11" class="product-box__item">
+                        <h3 class="product-box__title">Coselo Cap</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/cap/c1.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>11 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="450" class="product-box__item">
+                        <h3 class="product-box__title">Gt Cube</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/f5.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>450 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='summer' value="600" class="product-box__item">
+                        <h3 class="product-box__title">Cube Axeal</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/f6.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>600 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="320" class="product-box__item">
+                        <h3 class="product-box__title">Grown Pant</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/f7.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>320 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="500" class="product-box__item">
+                        <h3 class="product-box__title">Gt One</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/f8.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>500 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='winter' value="220" class="product-box__item">
+                        <h3 class="product-box__title">Formal Perfomer</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n1.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>220 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="150" class="product-box__item">
+                        <h3 class="product-box__title">Habib Shirt</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n2.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>150 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='winter' value="250" class="product-box__item">
+                        <h3 class="product-box__title">Kenda XL</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n3.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>250 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+
+
+                    <div data-category='summer' value="375" class="product-box__item">
+                        <h3 class="product-box__title">Forme Long</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n4.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>375 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='summer' value="500" class="product-box__item">
+                        <h3 class="product-box__title">Danim</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n5.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>500 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='summer' value="200" class="product-box__item">
+                        <h3 class="product-box__title">Casual Halves</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n6.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>200 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='summer' value="400" class="product-box__item">
+                        <h3 class="product-box__title">Zara</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n7.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>400 $</p><button class="product-box__btn">+</button>
+
+                        </div>
+                    </div>
+                    <div data-category='summer' value="300" class="product-box__item">
+                        <h3 class="product-box__title">Prada</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/n8.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>300 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='new-arrival' value="100" class="product-box__item">
+                        <h3 class="product-box__title">Swarovski</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/newArrival/a-3.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>100 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='tie' value="99" class="product-box__item">
+                        <h3 class="product-box__title">Jokie Tie</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/tie/t-4.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>99 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="13" class="product-box__item">
+                        <h3 class="product-box__title">Nordstrom</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/hotoffer/o-4.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>13 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='cap' value="25" class="product-box__item">
+                        <h3 class="product-box__title">Beach Hat</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/cap/c-6.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>25 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='summer' value="98" class="product-box__item">
+                        <h3 class="product-box__title">	Old Navy</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/f1.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>98 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="275" class="product-box__item">
+                        <h3 class="product-box__title">Gucci</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/hotoffer/o-5.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>275 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='summer' value="300" class="product-box__item">
+                        <h3 class="product-box__title">Diesel</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/products/f4.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>300 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='new-arrival' value="900" class="product-box__item">
+                        <h3 class="product-box__title">Sisley</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/newArrival/a-4.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>900 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='hotOffer' value="120" class="product-box__item">
+                        <h3 class="product-box__title">Lacoste</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/hotoffer/o-2.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>120 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='cap' value="39" class="product-box__item">
+                        <h3 class="product-box__title">Golf cap</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/cap/c-8.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>39 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='new-arrival' value="90" class="product-box__item">
+                        <h3 class="product-box__title">Patagonia</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/newArrival/a-5.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>90 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+                    <div data-category='new-arrival' value="100" class="product-box__item">
+                        <h3 class="product-box__title">Swatch</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="../img/newArrival/a-7.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <p>100 $</p><button class="product-box__btn">+</button>
+                        </div>
+                    </div>
+
+
+                </div><!-- /product-box-->
+
+            </section>
+        </div>
+
+        <footer class="bottom-footer bg-beetroot py-1">
+            <div class="container">
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
